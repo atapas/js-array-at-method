@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,25 @@
     <link rel="stylesheet" href="./index.css" preload />
     <title>JavaScript Array at(index) Example</title>
 </head>
+
 <body>
     <header>Array at(index) using Junk Foods I ❤️</header>
-    <div class="middle-row">
-        <ul id="listJunkies"></ul>
+    <div class="middle-col">
+        <div>
+            <ul id="listJunkies" class="list"></ul>
+        </div>
+
+        <div class="input">
+            <label for="index-id">Enter an Index number</label>
+            <input type="number" name="index" id="index-id" autofocus />
+        </div>
+
+        <div class="middle-row result" id="output"></div>
     </div>
 
-    <div class="middle-row input">
-        <label for="index-id">Enter an Index number</label>
-        <input 
-            type="number" 
-            name="index" 
-            id="index-id" 
-            autofocus/>
-    </div>
 
-    <div class="middle-row result" id="output"></div>
-
-<script src="./index.js"></script>    
+    <script src="./index.js"></script>
 
 </body>
+
 </html>

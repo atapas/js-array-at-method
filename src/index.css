@@ -14,13 +14,27 @@ header {
     font-weight: 700;
 }
 
-UL {
-    display: inline;
+.list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 280px) {
+    .list {
+    grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 LI{
-    display: inline;
-    padding: 1.5rem;
+    list-style: none;
     font-size: 2.5rem;
 }
 
@@ -41,9 +55,16 @@ input[type="number"] {
     font-size: 1.2rem;
 }
 
-.middle-row{
+.middle-row {
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.middle-col {
+    display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
 }
@@ -54,5 +75,11 @@ input[type="number"] {
 }
 
 .input {
-    margin-top: 0.5rem;
+    margin: 0.5rem auto;
+}
+
+@media (max-width: 768px) {
+    .input {
+        margin: 0.5rem;
+    }
 }
