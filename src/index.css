@@ -80,6 +80,12 @@ input[type="number"] {
 
 @media (max-width: 768px) {
     .input {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .input {
         margin: 0.5rem;
     }
 }
