@@ -1,0 +1,32 @@
+{
+  "name": "js-array-at-method",
+  "version": "1.0.0",
+  "description": "Project to demonstrate the usages of the JavaScript Array at(index) method.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atapas/js-array-at-method.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Js",
+    "Arrays"
+  ],
+  "author": "Tapas Adhikary(<tapas.adhikary@gmail.com>)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atapas/js-array-at-method/issues"
+  },
+  "homepage": "https://github.com/atapas/js-array-at-method#readme",
+  "dependencies": {
+    "array.prototype.at": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "parcel-bundler": "^1.12.5"
+  }
+}
