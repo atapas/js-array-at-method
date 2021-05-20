@@ -20,3 +20,10 @@ This repository is to provide examples(or demo) of the JavaScript array `at(inde
 # Liked it?
 If you find it helpful, please give the repository a star(⭐).
 
+## Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/js-array-at-method](https://reporoster.com/stars/atapas/js-array-at-method)](https://github.com/atapas/js-array-at-method/stargazers)
+
+# Know more about the `at()` method
+[Why do you need to know about the JavaScript Array at() method?](https://blog.greenroots.info/why-do-you-need-to-know-about-the-javascript-array-at-method-ckoskkkee0ftmbws1ag0b4udt)
+
